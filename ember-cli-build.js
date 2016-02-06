@@ -7,12 +7,23 @@ module.exports = function(defaults) {
     lessOptions: {
       paths: [
         'bower_components/bootstrap/less',
-        'bower_components/startbootstrap-sb-admin-2/less'
+        'bower_components/startbootstrap-sb-admin-2/less',
+        'bower_components/morrisjs/less'
       ]
     }
   });
 
+  // font-awesome fonts
+  app.import('bower_components/font-awesome/css/font-awesome.min.css');
+  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.eot', {destDir: 'fonts'});
+  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.svg', {destDir: 'fonts'});
+  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.ttf', {destDir: 'fonts'});
+  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.woff', {destDir: 'fonts'});
+  app.import('bower_components/font-awesome/fonts/FontAwesome.otf', {destDir: 'fonts'});
+
+//  app.import('bower_components/jquery/dist/jquery.js');
   app.import('bower_components/bootstrap/dist/js/bootstrap.js');
+  app.import('bower_components/metisMenu/dist/metisMenu.css');
   app.import('bower_components/metisMenu/dist/metisMenu.js');
   app.import('bower_components/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js');
 
