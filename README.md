@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Small-monies
 
 This README outlines the details of collaborating on this Ember application.
@@ -51,3 +52,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+=======
+# small-monies
+Simple spending calculator. EmberJS + BootstrapTheme
+>>>>>>> 29c40300744ace7d49293773621afc1255b4dfd7
